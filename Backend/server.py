@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, UploadFile, File
-from inference import predict
+from inference_onnx import predict
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
